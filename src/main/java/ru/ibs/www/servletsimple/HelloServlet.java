@@ -1,5 +1,8 @@
 package ru.ibs.www.servletsimple;
 
+import com.google.gson.Gson;
+import ru.ibs.www.manager.Manager;
+
 import java.io.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
@@ -15,5 +18,5 @@ public class HelloServlet extends HttpServlet {
                 "Vasya",
                 50000
         );
-
+    }
 }
