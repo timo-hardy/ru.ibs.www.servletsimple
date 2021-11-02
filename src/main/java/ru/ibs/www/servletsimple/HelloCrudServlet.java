@@ -12,7 +12,7 @@ import ru.ibs.www.manager.Manager;
 import java.io.*;
 
 @WebServlet("/hello-crud")
-public class CrudServlet extends HttpServlet {
+public class HelloCrudServlet extends HttpServlet {
     private final Gson gson = new Gson();
     private final static String filePath = "manager.json";
 
